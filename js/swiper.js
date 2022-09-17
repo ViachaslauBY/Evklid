@@ -5,7 +5,7 @@ const swiper = new Swiper('.swiper-container', {
     clickable: true,
   },
 
-  spaceBetween: 30,
+  spaceBetween: 10,
 
   loop: true,
 });
