@@ -8,10 +8,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/swiper.css">
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/swiper.css">  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="js/swiper.js" defer></script>
   <script src="js/accordion.js" defer></script>
   <script src="js/tabs.js" defer></script>
@@ -81,9 +81,9 @@
 
   <main class="main">
     <section class="hero">
-      <div class="container hero__container">
+      <div class="container hero__container">        
         <!-- Slider main container -->
-        <div class="swiper-container">
+        <div class="swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
@@ -95,7 +95,7 @@
             </div>
             <div class="swiper-slide">
               <div class="hero__banner slide-3"></div>
-            </div>
+            </div>                        
           </div>
           <div class="hero__info">
             <h1 class="hero__title">Проектные решения любой сложности</h1>
@@ -104,7 +104,8 @@
             </p>
             <button class="button-reset hero__button" aria-label="Заказать расчёт любой сложности">Заказать расчёт</button>
           </div>
-          <div class="swiper-pagination"></div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>                        
         </div>
       </div>
     </section>
